@@ -1,0 +1,15 @@
+Graphics scaling problem.
+	If current window width is half of the original then everything on screen 	should be scaled by 0.5
+
+	To get this, the scale factor (sf) would be 0.5
+
+	A negative result would only be possible by dividing the smller number by 	bigger.
+
+	Scale factor would be found by dividing the new ratio by the original.
+
+	new = 1
+	og = 2
+
+	new/og = 0.5
+
+Currently, every variable in the game is being scaled to the size of the screen. Eventually I will need to research a more streamlined way of achieving this, but for the simple game we are creating here, manual scaling will be good enough. 
